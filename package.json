@@ -1,0 +1,45 @@
+{
+  "name": "redux-async-middleware-comparison",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  },
+  "description": "Comparison of redux async action handling middlewares",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notgiorgi/redux-async-middleware-comparison.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-thunk",
+    "redux-promise",
+    "redux-promise-middleware",
+    "redux-saga",
+    "redux-middleware",
+    "middleware",
+    "react",
+    "reactjs"
+  ],
+  "author": "Giorgi Bagdavadze <notgiorgi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/notgiorgi/redux-async-middleware-comparison/issues"
+  },
+  "homepage": "https://github.com/notgiorgi/redux-async-middleware-comparison#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.9.1",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3",
+    "redux-promise-middleware": "^4.1.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
