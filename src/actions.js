@@ -89,37 +89,3 @@ export const fetchThingT = () => dispatch => {
         .then(res => dispatch(loadFetchedData(res, THUNK.FETCH_SUCCESS)))
         .catch(err => dispatch(loadFetchedData(err, THUNK.FETCH_ERROR)))
 }
-
-/**
- * When this problem appeared
- *      When dan abramov taught us how to create sync todo
- * 
- * 
- * What are middlewares
- *      middleware - the rule to tell dispatch what to do with the actions which aren't plain objects with type property
- * 
- * Compare by
- *      Action types
- *      Action creators
- *      Is Fetching
- *      reducers
- *      dispatching (with IS_FETCHING)
- * 
- * Which should I use
- * 
- * Contribute and help
- */
-
-/**
- * Summary of things happened
- * 
- * this got called it waited till... blah blag bla
- */
-
-/**
- * 
- * redux promise
- *  error in reducer 
- * 
- * 
- */
